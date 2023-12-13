@@ -11,7 +11,7 @@ public class Exercicio3 {
         System.out.println("===============================");
 
         while (i < notas.length) {
-            System.out.println("As notas são: "+notas[i]);
+            System.out.println("As notas são: "+ notas[i]);
             soma = soma + notas[i];
             i = i + 1;
         }

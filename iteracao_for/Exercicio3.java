@@ -1,4 +1,4 @@
-package vetores;
+package iteracao_for;
 
 public class Exercicio3 {
 
@@ -15,10 +15,11 @@ public class Exercicio3 {
         for (int i = 0; i < notas.length; i++) {
             soma = soma + notas[i];
         }
-        double media = soma / 4;
+        double media = soma / notas.length;
 
         System.out.println("A média é " + media);
         System.out.println("===============================");
 
     }
 }
+

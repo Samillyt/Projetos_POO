@@ -9,11 +9,9 @@ public class Exercicio2 {
 
         System.out.println("===============================");
 
-        // Enquanto a iteração for maior ou igual a zero vai repetir
         while (i >= 0) {
             System.out.println(valoresInverso[i]);
 
-            // Subtraindo 1 ao índice atual
             i = i - 1;
         }
         System.out.println("===============================");

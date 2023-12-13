@@ -18,7 +18,7 @@ public class Exercicio1 {
         System.out.println("===============================");
 
         // Imprime o maior números
-        if (numero1 >= numero2) {
+        if (numero1 > numero2) {
             System.out.println("O número " + numero1 + " é maior");
         }
 
